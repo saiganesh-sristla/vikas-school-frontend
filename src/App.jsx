@@ -11,7 +11,7 @@ import Highlights from "./components/Highlights"
 import HighlightSection from "./components/HighlightSection"
 import SchoolAdmissionFAQ from "./components/SchoolAdmissionFAQ"
 import VikasLearner from "./components/VikasLearner"
-
+import './styles/main.scss';
 function App() {
 
   return (
