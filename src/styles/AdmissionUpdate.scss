@@ -1,0 +1,83 @@
+$primary-blue: #0063D5;
+$deep-blue: #003473;
+$box-blue: #1c5ec9;
+$highlight-yellow: #fdd835;
+$alert-bg: #8e244d;
+
+.admission-section {
+  background: linear-gradient(to bottom, $primary-blue, $deep-blue);
+  color: #fff;
+  .update-label {
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+
+  .highlight-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+
+  .subtitle {
+    max-width: 600px;
+    font-size: 0.95rem;
+    opacity: 0.9;
+  }
+
+  .info-box {
+    background: $box-blue;
+    border-radius: 12px;
+    padding: 1.5rem;
+    height: 100%;
+
+    .icon {
+      font-size: 2rem;
+      color: #f4f4f4;
+    }
+
+    h5 {
+      font-weight: 600;
+      margin-top: 0.75rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+  }
+
+  .btn-admission {
+    background-color: #F73B40;
+    color: white;
+  }
+
+  .btn-admission:hover {
+    background-color: #ca282d;
+  }
+
+  .alert-box {
+    margin: 2rem auto 0;
+    background-color: $alert-bg;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .user-icon {
+    height: 35px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px;
+    .button-container {
+      button {
+        width: 90%;
+      }
+    }
+  }
+}

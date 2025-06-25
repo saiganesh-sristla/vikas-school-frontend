@@ -1,0 +1,49 @@
+// src/components/EnhancedCurriculum.scss
+
+$red-grad: linear-gradient(to bottom, #e1090e, #b40206);
+$light-pink: #ffe9ec;
+$icon-color: #d42d33;
+$program-bg: #d8393d;
+$success-bg: #c73540;
+
+.enhanced-curriculum-section {
+  background-color: #ffffff;
+
+  .icon-box {
+    background: $light-pink;
+    color: $icon-color;
+    font-size: 1.4rem;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+  }
+
+  .program-box {
+    background: $red-grad;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+
+    .program-item {
+      background: $program-bg;
+      font-weight: 500;
+    }
+
+    .success-box {
+      background: $success-bg;
+    }
+
+    .cambridge-badge {
+      position: absolute;
+      top: -45px;
+      right: -45px;
+      color: #034694;
+      font-size: medium;
+      border-radius: 12px;
+      .text-small {
+        font-size: 10px;
+        color: #647281;
+        letter-spacing: 1px;
+        opacity: 0.7;
+        padding-top: 2px;
+      }
+    }
+  }
+}

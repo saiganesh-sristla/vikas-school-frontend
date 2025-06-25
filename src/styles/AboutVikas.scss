@@ -1,0 +1,118 @@
+.about-vikas {
+  background: #E6F0FB;
+  padding: 50px 0;
+  .gradient-text {
+    background: linear-gradient(to right, #B50307, #ED0A10);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .image-section {
+    position: relative;
+
+    img {
+      width: 90%;
+      height: auto;
+      border-radius: 16px;
+      object-fit: cover;
+    }
+  }
+
+  .info-box {
+    background: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    height: 100%;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .btn {
+    border-radius: 30px;
+  }
+
+  .btn-learn {
+    background: linear-gradient(to right, #08468F, #004CA5);
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: linear-gradient(to right, #003366, #0050c0);
+    }
+  }
+
+  .card-title {
+    color: #034694;
+    font-size: 1rem;
+  }
+
+  // Responsive Tweaks
+  @media (max-width: 992px) {
+    padding: 60px 40px;
+
+    .info-box {
+      padding: 8px 12px;
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .card-title {
+        font-size: 0.95rem;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 50px 20px;
+    text-align: center;
+
+    .info-box {
+      justify-content: center;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .btn-learn {
+      width: 30%;
+    }
+
+    .row.g-3.mt-4 {
+      row-gap: 16px;
+      column-gap: 0;
+    }
+
+    .image-section {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 40px 15px;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    .card-title {
+      font-size: 0.95rem;
+    }
+
+    .btn-learn {
+      font-size: 0.85rem;
+      padding: 10px 16px;
+      width: 50%;
+    }
+  }
+}

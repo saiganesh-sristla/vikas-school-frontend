@@ -1,0 +1,77 @@
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(
+      #00194AB8,
+      #00194AB8
+    ),
+    url("/CTA_image.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  
+  .overlay-content {
+    z-index: 2;
+    max-width: 800px;
+
+    .small-text {
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+    }
+
+    .lead {
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    .btn {
+      font-weight: 500;
+      font-size: 1rem;
+
+      i {
+        font-size: 1.1rem;
+      }
+    }
+
+    .custom-buttom {
+        background-color: #ED1C21;
+        color: white;
+
+        img {
+          height: 18px;
+        }
+    }
+
+    .btn-book {
+      background-color: white;
+      color: #072051;
+
+      img {
+          height: 18px;
+        }
+    }
+
+    .icon {
+        margin: 0 10px 0 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .overlay-content {
+      padding: 0 1rem;
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .lead {
+        font-size: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,319 @@
+// .vikas-wrapper {
+//   min-height: 800px;
+//   padding: 40px 0;
+//   background: linear-gradient(to bottom, #0063D5 ,#043D7E);
+//   color: white;
+//   text-align: center;
+//   position: relative;
+
+//   .bg-image {
+//     position: absolute;
+//     top: 5%;
+//     left: 25%;
+//   }
+
+//   .above-title {
+//     font-size: small;
+//     letter-spacing: 2px;
+//     opacity: 0.8;
+//   }
+
+//   .title {
+//     font-size: 2rem;
+//     font-weight: 700;
+//     margin-bottom: 20px;
+//   }
+
+//   .subtitle {
+//     max-width: 800px;
+//     font-size: 0.9rem;
+//     margin: 0 auto 40px;
+//     line-height: 1.5;
+//   }
+
+// // .carousel-container {
+// // overflow: hidden;
+// // position: relative;
+// // height: 400px; // adjust as needed
+
+// // .scroll-track {
+// //   position: relative;
+// //   width: max-content;
+// //   display: flex;
+// //   align-items: center;
+// //   animation: scrollLeft 30s linear infinite;
+
+// //   .arrow-line {
+// //     position: absolute;
+// //     top: 40%;
+// //     left: 15%;
+// //     transform: translateY(-50%);
+// //     height: 40px; // adjust based on arrow image height
+// //     z-index: 0;
+// //     pointer-events: none;
+// //     width: 70%;
+// //   }
+
+// //   .scroll-wrapper {
+// //     display: flex;
+// //     gap: 10px;
+// //     position: relative;
+// //     z-index: 1;
+// //   }
+// // }
+// // }
+
+// .carousel-container {
+//   position: relative;
+
+//   .arrow-line {
+//     position: absolute;
+//     top: 40%;
+//     left: 15%;
+//     transform: translateY(-50%);
+//     height: 40px;
+//     z-index: 0;
+//     pointer-events: none;
+//     width: 70%;
+//   }
+
+//   .scroll-wrapper {
+//     z-index: 1;
+//     position: relative;
+
+//     .splide__slide {
+//       display: flex;
+//       justify-content: center;
+//     }
+//   }
+// }
+
+
+//   .learner-card {
+//     border-radius: 10px;
+//     width: 250px;
+//     padding: 20px;
+//     position: relative;
+
+//     &.up {
+//       transform: translateY(-30px);
+//     }
+
+//     &.down {
+//       transform: translateY(30px);
+//     }
+
+//     .image-wrapper {
+//       width: 100%;
+//       height: 210px;
+//       border-radius: 50%;
+//       overflow: hidden;
+//       margin-bottom: 20px;
+//       margin-top: 20px;
+//       border: 6px solid #e5e5e5;
+
+//       img {
+//         width: 100%;
+//         height: 100%;
+//         object-fit: cover;
+//       }
+
+//       .badge-number {
+//         position: absolute;
+//         top: 40px;
+//         right: 60px;
+//         width: 36px;
+//         height: 36px;
+//         border-radius: 50%;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         color: white;
+//         font-size: 1rem;
+//         z-index: 2;
+//         padding-left: 2px;
+//       }
+//     }
+
+//     h4 {
+//       font-size: 1.2rem;
+//       font-weight: 600;
+//       margin-bottom: 10px;
+//     }
+
+//     p {
+//       font-size: 0.9rem;
+//       opacity: 0.8;
+//     }
+//   }
+
+//   @keyframes scrollLeft {
+//     0% {
+//       transform: translateX(100%);
+//     }
+//     100% {
+//       transform: translateX(0%);
+//     }
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   .vikas-wrapper {
+//     .scroll-wrapper {
+//       animation-duration: 20s;
+//     }
+//     .learner-card {
+//       width: 200px;
+//       padding: 15px;
+//       .image-wrapper {
+//         height: 160px;
+
+//          .badge-number {
+//             top: 30px;
+//             right: 50px;
+//          }
+//       }
+//     }
+//   }
+//   @keyframes scrollLeft {
+//     0% {
+//       transform: translateX(0%);
+//     }
+//     100% {
+//       transform: translateX(-150%);
+//     }
+//   }
+// }
+
+
+.vikas-wrapper {
+  padding: 50px 0;
+  background: linear-gradient(to bottom, #0063D5, #043D7E);
+  color: white;
+  text-align: center;
+  position: relative;
+
+  .bg-image {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+  }
+
+  .above-title {
+    font-size: small;
+    letter-spacing: 2px;
+    opacity: 0.8;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    max-width: 800px;
+    font-size: 0.9rem;
+    margin: 0 auto 40px;
+    line-height: 1.5;
+  }
+
+  .carousel-container {
+    position: relative;
+
+    .scroll-wrapper {
+      z-index: 1;
+      position: relative;
+
+      .splide__slide {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  .learner-card {
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    position: relative;
+
+    &.up {
+      transform: translateY(-30px);
+    }
+
+    &.down {
+      transform: translateY(30px);
+    }
+
+    .image-wrapper {
+      width: 100%;
+      height: 210px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border: 6px solid #e5e5e5;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .badge-number {
+        position: absolute;
+        top: 40px;
+        right: 55px;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1rem;
+        z-index: 2;
+        padding-left: 2px;
+      }
+    }
+
+    h4 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .vikas-wrapper {
+
+    .title{
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    .subtitle {
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    .learner-card {
+      width: 200px;
+      padding: 15px;
+      margin: 0;
+      .image-wrapper {
+        height: 160px;
+
+        .badge-number {
+          top: 30px;
+          right: 35px;
+        }
+      }
+    }
+  }
+}

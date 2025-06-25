@@ -1,0 +1,148 @@
+.director-message {
+  background: linear-gradient(to bottom right, #0050c0, #012f7a);
+  position: relative;
+
+  .chakra-bg {
+    position: absolute;
+    right: -17%;
+    top: 5%;
+    height: 500px;
+    width: 500px;
+  }
+
+  .blockquote {
+    // border-left: 0.25rem solid #00aaff;
+    // padding-left: 1rem;
+    display: flex;
+
+    .text-info {
+
+      img {
+        height: 25px;
+      }
+    }
+  }
+
+  .top-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    
+    p{
+      letter-spacing: 1px;
+    }
+  }
+
+  .watch-full-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn-message {
+    background-color: #f73b40;
+    color: white;
+    width: 250px;
+  }
+
+  .btn-message:hover {
+    background-color: #ba2026;
+  }
+
+  .director-image {
+    img {
+      height: 420px;
+    }
+
+    button {
+      height: 60px;
+      width: 60px;
+      border-radius: 100%;
+      border: 1px solid black;
+      position: absolute;
+      top: 50%;
+      right: 100px;
+      padding: 2px;
+      .icon {
+        height: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    background: linear-gradient(to bottom right, #0650c6, #012f7a);
+    .chakra-bg {
+      display: none;
+    }
+    .director-image {
+      img {
+        height: 380px;
+      }
+      button {
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        border: 1px solid black;
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        padding: 2px;
+        .icon {
+          height: 20px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    background: linear-gradient(to bottom right, #0650c6, #012f7a);
+    .chakra-bg {
+      display: none;
+    }
+    .director-image {
+      button {
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        border: 1px solid black;
+        position: absolute;
+        top: 50%;
+        right: 300px;
+        padding: 2px;
+        .icon {
+          height: 20px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+
+    .watch-full-container {
+      display: block;
+    }
+
+    .director-image {
+      img {
+        height: 310px;
+
+      }
+
+      button {
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        border: 1px solid black;
+        position: absolute;
+        top: 50%;
+        right: 100px;
+        padding: 2px;
+        .icon {
+          height: 20px;
+        }
+      }
+    }
+  }
+}

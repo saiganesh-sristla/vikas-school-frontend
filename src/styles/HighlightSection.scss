@@ -1,0 +1,85 @@
+.highlight1-section {
+  background: linear-gradient(#671315B2, #671315B2), 
+              url('/bg-placeholder.jpg') center center/cover no-repeat;
+  padding: 100px 0;
+  position: relative;
+  background-attachment: fixed;
+
+  .legacy-text {
+    font-size: 14px;
+  }
+
+  .lead {
+    margin-bottom: 100px;
+  }
+
+  .card1 {
+    height: 100%;
+    // margin-left: 25px;
+  }
+
+  .card2 {
+    height: 100%;
+  }
+
+  .card3 {
+    height: 100%;
+    // margin-left: 25px;
+  }
+
+  .stat {
+    .icon {
+      font-size: 36px;
+    }
+    h4 {
+      font-size: 32px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .brochure-img {
+    max-width: 100px;
+    margin: auto;
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    min-height: 160px;
+  }
+
+  .vision-card {
+    width: auto;;
+  }
+
+  .btn-download {
+    background-color: #F73B40;
+    color: white;
+    min-width: 160px;
+  }
+
+  .btn-download:hover {
+    background-color: #f42b31;
+  }
+
+  @media (max-width:1200px) {
+    .card1 {
+    height: 80%;
+  }
+
+  .card2 {
+    height: 80%;
+  }
+
+  .card3 {
+    height: 80%;
+  }
+  }
+}

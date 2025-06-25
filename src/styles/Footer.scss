@@ -1,0 +1,95 @@
+.footer-section {
+  background: linear-gradient(to bottom, #0052B2, #002C61);
+  color: white;
+  font-size: 0.9rem;
+  padding: 100px 0 50px 0;
+  position: relative;
+  overflow: hidden;
+
+  .bg-image {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+  }
+  
+  h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    padding-left: 0;
+    li {
+      margin-bottom: 0.5rem;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .cta-box {
+    background-color: #E3151580;
+    padding:40px 30px 20px 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    h5 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
+
+    .btn-cta {
+        background-color: #ED1C21;
+        color: white;
+        font-size: 0.8rem;
+        padding: 10px;
+        width: 150px;
+    }
+  }
+
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    width: 60%;
+  }
+
+  .form-control::placeholder{
+    color: white;
+    opacity: 0.4;
+    padding-left: 20px;
+  }
+
+  .btn-subscribe {
+        background: linear-gradient(to right, #00418E, #0057BB);
+        color: white;
+    }
+
+  a {
+    color: white;
+    &:hover {
+      color: #f0f0f0;
+    }
+  }
+
+  svg {
+    font-size: 1.2rem;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .quick-links {
+    padding-left: 50px;
+  }
+
+  @media (max-width: 786px) {
+    .quick-links {
+    padding-left: 15px;
+  }
+  }
+}
