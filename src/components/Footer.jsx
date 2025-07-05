@@ -34,19 +34,19 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="col-md-3 col-sm-6">
             <h6 className="mb-4">Reach Us At</h6>
-            <p className="mb-4">
+            <div className="mb-4">
               <MdLocationOn className="me-2 text-danger" />
               <strong>Location:</strong><div className="ps-4 pt-1"> Sai Krishnaja Hills, off Miyapur,
               Bachupally, Hyderabad, Telangana-500118</div>
-            </p>
-            <p className="mb-4">
+            </div>
+            <div className="mb-4">
               <MdCall className="me-2 text-danger" />
               <strong>Board Line:</strong> <div className="ps-4 pt-1">(+91) 022-5036 88 10 / 12</div> 
-            </p>
-            <p>
+            </div>
+            <div>
               <MdEmail className="me-2 text-danger" />
               <strong>Email:</strong> <div className="ps-4 pt-1"> support@vikasschool.org </div>
-            </p>
+            </div>
           </div>
 
           {/* Quick Links */}

@@ -20,7 +20,7 @@ const slides = [
     cardTitle: 'IBDP Results are out!'
   },
   {
-    id: 1,
+    id: 2,
     title: 'Legacy Of 50+ Years Of Educational Excellence',
     subtitle: 'Cambridge University Partnership • International Curriculum • Indian Values',
     tag: 'Cambridge + IB Partnership',
@@ -31,7 +31,7 @@ const slides = [
     cardTitle: 'IBDP Results are out!'
   },
   {
-    id: 1,
+    id: 3,
     title: 'Legacy Of 50+ Years Of Educational Excellence',
     subtitle: 'Cambridge University Partnership • International Curriculum • Indian Values',
     tag: 'Cambridge + IB Partnership',
@@ -42,7 +42,7 @@ const slides = [
     cardTitle: 'IBDP Results are out!'
   },
   {
-    id: 1,
+    id: 4,
     title: 'Legacy Of 50+ Years Of Educational Excellence',
     subtitle: 'Cambridge University Partnership • International Curriculum • Indian Values',
     tag: 'Cambridge + IB Partnership',
